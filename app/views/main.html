@@ -1,0 +1,105 @@
+<div ng-controller="CarouselDemoCtrl">
+    <div>
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}" style="margin:auto;width:100%">
+                <div class="carousel-caption">
+                    <!--                    <p>{{slide.text}}</p>-->
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</div>
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-lg-6 col-xs-12 big-block">
+            <span>Amenities</span>
+            <div class="row block">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="images/room2.png">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="images/room1.png">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-xs-12 big-block">
+            <span>Description</span>
+            <div class="row block text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta varius erat viverra pharetra. Maecenas in velit dapibus erat pretium egestas sit amet et quam. Maecenas vitae mauris ac lectus sollicitudin condimentum. Nunc malesuada pharetra iaculis. Pellentesque iaculis libero dui, id commodo ex eleifend id. Vestibulum tempus dui non sodales laoreet. In ac erat sagittis, varius massa nec, blandit sapien. Duis a velit varius, rhoncus mauris a, porta erat. Morbi facilisis sodales dictum. Fusce velit mi, lacinia sed egestas in, tincidunt non leo. <br><br><address>
+  <strong>Auckland</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+   <div class="col-lg-12 col-xs-12 text-center">
+        <div class="row vertical-align title" >
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+               Room Type
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 hidden-xs">
+               Conditions
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 hidden-xs" >
+               Price
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 hidden-xs hidden-md">
+               Reservation
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-xs-12 text-center">
+        <div class="row vertical-align" >
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+               <img src="images/opt11.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 hidden-xs">
+               <img src="images/opt13.png">   
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 valign" >
+               <img src="images/opt12.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 valign">
+               <button type="button" class="btn btn-success" >Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-xs-12 text-center">
+        <div class="row vertical-align" >
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+               <img src="images/opt21.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 hidden-xs">
+               <img src="images/opt13.png">   
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 valign" >
+               <img src="images/opt12.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 valign">
+               <button type="button" class="btn btn-success" >Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-xs-12 text-center">
+        <div class="row vertical-align" >
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+               <img src="images/opt31.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 hidden-xs">
+               <img src="images/opt13.png">   
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 valign" >
+               <img src="images/opt12.png" >   
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 valign">
+               <button type="button" class="btn btn-success" >Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
